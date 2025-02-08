@@ -23,7 +23,7 @@ e = None
 print("--------------")
 
 print("\nEjercicio 3: Casting de tipos")
-print("Convierte la cadena \"12345\" a un entero y luego a un float.")
+print('Convierte la cadena "12345" a un entero y luego a un float.')
 print("Convierte el float 3.99 a un entero. ¿Qué ocurre?")
 
 ### Completa aquí
