@@ -1,0 +1,295 @@
+{
+  // ========== Visuals ==========
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "Cascadia code",
+  "editor.guides.bracketPairs": "active",
+  "editor.lineNumbers": "on",
+  "editor.renderWhitespace": "none",
+  "window.autoDetectColorScheme": false,
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.editor.tabActionLocation": "left",
+  "workbench.fontAliasing": "antialiased",
+  "workbench.list.smoothScrolling": true,
+  "workbench.preferredDarkColorTheme": "Tokyo Night",
+  "workbench.preferredLightColorTheme": "Tokyo Night",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.tree.expandMode": "singleClick",
+  "workbench.tree.indent": 4,
+  // ========== Editor ========== 
+  "debug.onTaskErrors": "debugAnyway",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.stickyScroll.enabled": true,
+  "terminal.integrated.stickyScroll.enabled": true,
+  "workbench.tree.enableStickyScroll": true,
+  "editor.hover.sticky": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.simpleDialog.enable": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.untrackedChanges": "separate",
+  "scm.diffDecorationsGutterWidth": 2,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.fontSize": 15,
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.value": 5,
+  "search.exclude": {
+    "**/*.snap": true,
+    "**/*.svg": true,
+    "**/.git": true,
+    "**/.github": false,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.pnpm": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/assets": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/logs": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/public": true,
+    "**/temp": true,
+    "**/yarn.lock": true,
+    "**/CHANGELOG*": true,
+    "**/LICENSE*": true,
+  },
+  "window.nativeTabs": true, // this is great, macOS only
+  "window.title": "${rootName}", // this make tabs more readable
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  // ========== Extension configs ========== 
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": false,
+  "errorLens.enabledDiagnosticLevels": [
+    "warning",
+    "error"
+  ],
+  "errorLens.excludeBySource": [
+    "cSpell",
+    "Grammarly",
+    "eslint"
+  ],
+  // ESLint config: https://github.com/antfu/eslint-config
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.quiet": true,
+  // Silent the stylistic rules in you IDE, but still auto fix them
+  "eslint.rules.customizations": [
+    {
+      "rule": "style/*",
+      "severity": "off"
+    },
+    {
+      "rule": "format/*",
+      "severity": "off"
+    },
+    {
+      "rule": "*-indent",
+      "severity": "off"
+    },
+    {
+      "rule": "*-spacing",
+      "severity": "off"
+    },
+    {
+      "rule": "*-spaces",
+      "severity": "off"
+    },
+    {
+      "rule": "*-order",
+      "severity": "off"
+    },
+    {
+      "rule": "*-dangle",
+      "severity": "off"
+    },
+    {
+      "rule": "*-newline",
+      "severity": "off"
+    },
+    {
+      "rule": "*quotes",
+      "severity": "off"
+    },
+    {
+      "rule": "*semi",
+      "severity": "off"
+    }
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml"
+  ],
+  "css.lint.hexColorLength": "ignore",
+  // I only use Prettier for manually formatting
+  "prettier.enable": true,
+  "prettier.printWidth": 200,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  // ========== File Nesting ==========
+  "explorer.fileNesting.enabled": true,
+  "editor.fontSize": 13,
+  "files.autoSave": "afterDelay",
+  "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 100,
+  "window.zoomLevel": 2,
+  "terminal.integrated.fontFamily": "Iosevka Nerd Font",
+  "editor.wordWrap": "on",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "prettier.useTabs": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.hover.enabled": true,
+  "eplorer.fileNesting.enabled": true,
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnType": true,
+    "editor.wordBasedSuggestions": "off",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[java]": {
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "redhat.telemetry.enabled": false,
+  "editor.cursorBlinking": "blink",
+  "editor.smoothScrolling": true,
+  "editor.fastScrollSensitivity": 10,
+  "editor.cursorStyle": "line",
+  "editor.find.cursorMoveOnType": false,
+  "emmet.syntaxProfiles": {
+    "html": {
+      "inline_break": true
+    }
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.snippetSuggestions": "top",
+  "window.nativeFullScreen": true,
+  "editor.guides.indentation": false,
+  "workbench.preferredHighContrastLightColorTheme": "Tokyo Night",
+  "workbench.preferredHighContrastColorTheme": "Tokyo Night",
+  "workbench.activityBar.location": "default",
+  "workbench.iconTheme": "symbols",
+  "workbench.tree.renderIndentGuides": "none",
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.icons": true,
+  "breadcrumbs.showArrays": false,
+  "breadcrumbs.showBooleans": false,
+  "breadcrumbs.showClasses": false,
+  "breadcrumbs.showConstants": false,
+  "breadcrumbs.showConstructors": false,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.labelFormat": "short",
+  "window.density.editorTabHeight": "default",
+  "window.systemColorTheme": "dark",
+  "window.menuBarVisibility": "compact",
+  "editor.formatOnType": true,
+  "editor.inlayHints.enabled": "off",
+  "typescript.tsserver.maxTsServerMemory": 4096,
+  "typescript.tsserver.log": "off",
+  "typescript.suggestionActions.enabled": false,
+  "javascript.suggestionActions.enabled": false,
+  "files.maxMemoryForLargeFilesMB": 4096,
+  "workbench.tips.enabled": false,
+  "window.commandCenter": true,
+  //APC CUSTOMIZE UI
+  "editor.codeLens": false,
+  "zenMode.centerLayout": false,
+  "zenMode.hideActivityBar": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.fullScreen": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "update.mode": "manual",
+  "java.compile.nullAnalysis.mode": "disabled",
+  "explorer.compactFolders": false,
+  "explorer.openEditors.visible": 1,
+  "explorer.sortOrder": "type",
+  "workbench.statusBar.visible": true,
+  "terminal.integrated.gpuAcceleration": "on",
+  "editor.autoIndent": "full",
+  "editor.folding": true,
+  "window.enableHardwareAcceleration": false,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.quickSuggestions": {
+    "other": true,
+  },
+  "CodeGPT.apiKey": "CodeGPT Plus Beta",
+  "editor.parameterHints.enabled": false,
+  "editor.glyphMargin": false,
+  "editor.showFoldingControls": "mouseover",
+  "editor.matchBrackets": "never",
+  "animations.Active": "Indent",
+  "template-string-converter.enabled": true,
+  "telemetry.telemetryLevel": "off",
+  "animations.Enabled": true,
+  "vscode_custom_css.imports": [
+    "file:///c:/Users/jefer/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
+  ],
+  "workbench.editor.wrapTabs": false,
+  "editor.semanticTokenColorCustomizations": {
+    "[Tokyo Night]": {
+      "enabled": true,
+      "rules": {
+        "*.declaration": {
+          "bold": true,
+        }
+      }
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "apc.font.family": "Cascadia Code",
+  "git.blame.editorDecoration.enabled": true,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "rapidapi.terminalLink.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.lineHeight": 20,
+  "oneDarkPro.italic": true,
+  "oneDarkPro.vivid": true,
+  "editor.linkedEditing": true
+}
