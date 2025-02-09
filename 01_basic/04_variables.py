@@ -35,16 +35,16 @@ print(f"Hola {my_name}, tengo {age + 5} años")
 name, age, city = "midudev", 32, "Bogotá"
 
 # Convenciones de nombres de variables
-mi_nombre_de_variable = "ok" # snake_case
+mi_nombre_de_variable = "ok"  # snake_case
 nombre = "ok"
 
-miNombreDeVariable = "no-recomendado" # camelCase
-MiNombreDeVariable = "no-recomendado" # PascalCase
-minombredevariable = "no-recomendado" # todojunto
+miNombreDeVariable = "no-recomendado"  # camelCase
+MiNombreDeVariable = "no-recomendado"  # PascalCase
+minombredevariable = "no-recomendado"  # todojunto
 
 mi_nombre_de_variable_123 = "ok"
 
-MI_CONSTANTE = 3.14 # UPPER_CASE -> constantes
+MI_CONSTANTE = 3.14  # UPPER_CASE -> constantes
 
 # Nombres NO válidos de variables (esto generaría errores)
 # 123123_variable = "ko"  # ❌ No puede comenzar con un número
@@ -62,9 +62,8 @@ MI_CONSTANTE = 3.14 # UPPER_CASE -> constantes
 # 'return', 'try', 'while', 'with', 'yield']
 
 # Anotaciones de tipo (opcional, para mayor claridad en el código)
-is_user_logged_in: bool = True # Indica que la variable es un booleano
+is_user_logged_in: bool = True  # Indica que la variable es un booleano
 print(is_user_logged_in)
 
-name: str = "midudev" # Indica que la variable es una cadena de texto
+name: str = "midudev"  # Indica que la variable es una cadena de texto
 print(name)
-

@@ -46,9 +46,11 @@
 # print(multiplicar(2))
 # print(multiplicar(2, 3))
 
+
 # Argumentos por posición
 def describir_persona(nombre: str, edad: int, sexo: str):
-  print(f"Soy {nombre}, tengo {edad} años y me identifico como {sexo}")
+    print(f"Soy {nombre}, tengo {edad} años y me identifico como {sexo}")
+
 
 # parámetros son posicionales
 describir_persona(1, 25, "gato")
@@ -58,23 +60,27 @@ describir_persona("hombre", "madeval", 39)
 # Argumentos por clave
 # parámetros nombrados
 describir_persona(sexo="gato", nombre="midudev", edad=25)
-describir_persona(sexo="hombre", nombre="madeval", edad=21) 
+describir_persona(sexo="hombre", nombre="madeval", edad=21)
+
 
 # Argumentos de longitud de variable (*args):
 def sumar_numeros(*args):
-  suma = 0
-  for numero in args:
-    suma += numero
-  return suma
+    suma = 0
+    for numero in args:
+        suma += numero
+    return suma
+
 
 print(sumar_numeros(1, 2, 3, 4, 5))
 print(sumar_numeros(1, 2))
-print(sumar_numeros(1, 2,3 ,4, 5, 6, 7, 8, 9, 10))
+print(sumar_numeros(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
+
 
 # Argumentos de clave-valor variable (**kwargs):
 def mostrar_informacion_de(**kwargs):
-  for clave, valor in kwargs.items():
-    print(f"{clave}: {valor}")
+    for clave, valor in kwargs.items():
+        print(f"{clave}: {valor}")
+
 
 mostrar_informacion_de(nombre="midudev", edad=25, sexo="gato")
 print("\n")
@@ -84,7 +90,7 @@ mostrar_informacion_de(nick="pheralb", es_sub=True, is_rich=True)
 print("\n")
 mostrar_informacion_de(super_name="felixicaza", es_modo=True, gatos=40)
 
-# Ejercicios
+# Ejercicios
 # Volver a los ejercicios anteriores
 # y convertirlos en funciones
 # e intentar utilizar todos los casos y conceptos

@@ -7,8 +7,8 @@
 print("\nEjercicio 1:")
 numero = 10
 while numero >= 1:
-  print(numero)
-  numero -= 1
+    print(numero)
+    numero -= 1
 
 # Ejercicio 2: Suma de números pares (while)
 # Calcula la suma de los números pares entre 1 y 20 (inclusive) usando un bucle while.
@@ -16,9 +16,9 @@ print("\nEjercicio 2:")
 numero = 1
 suma_pares = 0
 while numero <= 20:
-  if numero % 2 == 0:
-    suma_pares += numero
-  numero += 1
+    if numero % 2 == 0:
+        suma_pares += numero
+    numero += 1
 
 print(f"La suma de los números pares hasta 20 es: {suma_pares}")
 
@@ -34,8 +34,8 @@ factorial = 1
 contador = 1
 
 while contador <= numero:
-  factorial *= contador
-  contador += 1
+    factorial *= contador
+    contador += 1
 
 print(f"El factorial de {numero} es: {factorial}")
 
@@ -48,9 +48,9 @@ print("\nEjercicio 4:")
 
 contrasena = ""
 while len(contrasena) < 8:
-  contrasena = input("Introduce una contraseña (al menos 8 caracteres): ")
-  if len(contrasena) < 8:
-    print("La contraseña debe tener al menos 8 caracteres. Inténtalo de nuevo.")
+    contrasena = input("Introduce una contraseña (al menos 8 caracteres): ")
+    if len(contrasena) < 8:
+        print("La contraseña debe tener al menos 8 caracteres. Inténtalo de nuevo.")
 
 print("Contraseña válida")
 
@@ -63,9 +63,9 @@ numero = int(input("Introduce un número: "))
 multiplicador = 1
 
 while multiplicador <= 10:
-  resultado = numero * multiplicador
-  print(f"{numero} x {multiplicador} = {resultado}")
-  multiplicador += 1
+    resultado = numero * multiplicador
+    print(f"{numero} x {multiplicador} = {resultado}")
+    multiplicador += 1
 
 # Ejercicio 6: Números primos hasta N
 # Pide al usuario que introduzca un número entero positivo N.
@@ -77,14 +77,18 @@ n = int(input("Introduce un número entero positivo N: "))
 
 numero = 2
 while numero <= n:
-  es_primo = True  # Asumimos que el número es primo hasta que se demuestre lo contrario
-  divisor = 2
-  while divisor * divisor <= numero:  # Optimizamos: no es necesario probar divisores hasta numero
-    if numero % divisor == 0:
-      es_primo = False  # Si encontramos un divisor, no es primo
-      break  # Salimos del bucle interior
-    divisor += 1
-  if es_primo:
-    print(numero)
+    es_primo = (
+        True  # Asumimos que el número es primo hasta que se demuestre lo contrario
+    )
+    divisor = 2
+    while (
+        divisor * divisor <= numero
+    ):  # Optimizamos: no es necesario probar divisores hasta numero
+        if numero % divisor == 0:
+            es_primo = False  # Si encontramos un divisor, no es primo
+            break  # Salimos del bucle interior
+        divisor += 1
+    if es_primo:
+        print(numero)
 
-  numero += 1
+    numero += 1

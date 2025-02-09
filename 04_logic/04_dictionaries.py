@@ -6,15 +6,11 @@
 
 # ejemplo tipico de diccionario
 persona = {
-  "nombre": "midudev",
-  "edad": 25,
-  "es_estudiante": True,
-  "calificaciones": [7, 8, 9],
-  "socials": {
-    "twitter": "@midudev",
-    "instagram": "@midudev",
-    "facebook": "midudev"
-  }
+    "nombre": "midudev",
+    "edad": 25,
+    "es_estudiante": True,
+    "calificaciones": [7, 8, 9],
+    "socials": {"twitter": "@midudev", "instagram": "@midudev", "facebook": "midudev"},
 }
 
 # para acceder a los valores
@@ -30,22 +26,22 @@ persona["calificaciones"][2] = 10
 del persona["edad"]
 # print(persona)
 
-es_estudiante = persona.pop("es_estudiante") 
+es_estudiante = persona.pop("es_estudiante")
 print(f"es_estudiante: {es_estudiante}")
 print(persona)
 
 # sobreescribir un diccionario con otro diccionario
-a = { "name": "miduev", "age": 25 }
-b = { "name": "madeval", "es_estudiante": True }
+a = {"name": "miduev", "age": 25}
+b = {"name": "madeval", "es_estudiante": True}
 
 a.update(b)
 print(a)
 
 # comprobar si existe una propiedad
-print("name" in persona) # False
-print("nombre" in persona) # True
+print("name" in persona)  # False
+print("nombre" in persona)  # True
 
-# obtener todas las claves
+# obtener todas las claves
 print("\nkeys:")
 print(persona.keys())
 
@@ -58,4 +54,4 @@ print("\nitems:")
 print(persona.items())
 
 for key, value in persona.items():
-  print(f"{key}: {value}")
+    print(f"{key}: {value}")
