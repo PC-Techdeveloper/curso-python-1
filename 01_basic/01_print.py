@@ -9,17 +9,17 @@
 print("¡Hola, Twitch!")
 
 # También puedes usar comillas simples para imprimir texto
-print('Esto también funciona con una comilla')
+print("Esto también funciona con una comilla")
 
 # Puedes imprimir múltiples elementos separados por un espacio
 print("Python", "es", "genial")
 
 # El parámetro 'sep' permite definir cómo se separan los elementos impresos
-print("Python", "es", "brutal", sep = "-")
+print("Python", "es", "brutal", sep="-")
 
 # El parámetro 'end' define lo que se imprime al final de la línea
-print("Esto se imprime", end = "\n") # Aquí, el 'end' tiene un salto de línea explícito
-print("en una línea") # Esto se imprime en la línea siguiente
+print("Esto se imprime", end="\n")  # Aquí, el 'end' tiene un salto de línea explícito
+print("en una línea")  # Esto se imprime en la línea siguiente
 
 # También se pueden imprimir números directamente
 print(42)
@@ -32,7 +32,7 @@ print(42)
 print('Esto es una "pulgada" dentro de un string con comillas simples')
 
 # ✅ Solución 2: Usar el carácter de escape \ para incluir comillas dobles dentro de un string con comillas dobles
-print("Esto es una \"pulgada\" dentro de un string con comillas dobles")
+print('Esto es una "pulgada" dentro de un string con comillas dobles')
 
 # ✅ Solución 3: Usar triple comillas para definir el string
 print("""Esto es una "pulgada" dentro de un string con triple comillas""")

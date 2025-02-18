@@ -1,19 +1,19 @@
 {
   // ========== Visuals ==========
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontFamily": "Cascadia Code",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.guides.bracketPairs": "active",
   "editor.lineNumbers": "on",
   "editor.renderWhitespace": "none",
   "window.autoDetectColorScheme": false,
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "Cursor like theme",
   "workbench.editor.tabActionLocation": "left",
   "workbench.fontAliasing": "antialiased",
   "workbench.list.smoothScrolling": true,
-  "workbench.preferredDarkColorTheme": "One Dark Pro",
-  "workbench.preferredLightColorTheme": "One Dark Pro",
+  "workbench.preferredDarkColorTheme": "Cursor like theme",
+  "workbench.preferredLightColorTheme": "Cursor like theme",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 4,
@@ -51,7 +51,7 @@
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.tabs.enabled": false,
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontSize": 18,
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.limit.enabled": true,
@@ -165,12 +165,12 @@
   "prettier.singleQuote": true,
   // ========== File Nesting ==========
   "explorer.fileNesting.enabled": true,
-  "editor.fontSize": 14.11,
+  "editor.fontSize": 14.20,
   "files.autoSave": "afterDelay",
   "editor.minimap.enabled": false,
   "editor.minimap.maxColumn": 55,
-  "window.zoomLevel": 1.89,
-  "terminal.integrated.fontFamily": "Cascadia code",
+  "window.zoomLevel": 1,
+  "terminal.integrated.fontFamily": "Iosevka Nerd Font Mono",
   "editor.wordWrap": "on",
   "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
@@ -196,7 +196,7 @@
   "editor.cursorBlinking": "blink",
   "editor.smoothScrolling": true,
   "editor.fastScrollSensitivity": 10,
-  "editor.cursorStyle": "line",
+  "editor.cursorStyle": "block",
   "editor.find.cursorMoveOnType": false,
   "emmet.syntaxProfiles": {
     "html": {
@@ -207,12 +207,12 @@
   "editor.snippetSuggestions": "top",
   "window.nativeFullScreen": true,
   "editor.guides.indentation": false,
-  "workbench.preferredHighContrastLightColorTheme": "One Dark Pro",
-  "workbench.preferredHighContrastColorTheme": "One Dark Pro",
+  "workbench.preferredHighContrastLightColorTheme": "Cursor like theme",
+  "workbench.preferredHighContrastColorTheme": "Cursor like theme",
   "workbench.activityBar.location": "default",
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.renderIndentGuides": "none",
-  "breadcrumbs.enabled": true,
+  "breadcrumbs.enabled": false,
   "breadcrumbs.icons": true,
   "breadcrumbs.showArrays": false,
   "breadcrumbs.showBooleans": false,
@@ -269,18 +269,8 @@
     "file:///c:/Users/jefer/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
   ],
   "workbench.editor.wrapTabs": false,
-  "editor.semanticTokenColorCustomizations": {
-    "[One Dark Pro]": {
-      "enabled": true,
-      "rules": {
-        "*.declaration": {
-          "bold": true,
-        }
-      }
-    }
-  },
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "apc.font.family": "Cascadia Code",
+  "editor.fontWeight": "bold",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
   "git.blame.editorDecoration.enabled": true,
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
@@ -288,9 +278,8 @@
   "rapidapi.terminalLink.enabled": false,
   "chat.commandCenter.enabled": false,
   "editor.scrollbar.vertical": "hidden",
-  "editor.lineHeight": 23,
   "editor.linkedEditing": true,
-  "oneDarkPro.bold": true,
-  "oneDarkPro.italic": true,
-  "oneDarkPro.vivid": true
+  "editor.lineHeight": 19,
+  "editor.suggest.insertMode": "replace",
+  "tabnine.experimentalAutoImports": true,
 }
