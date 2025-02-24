@@ -11,8 +11,8 @@ pattern = "a*"
 matches = re.findall(pattern, text)
 print(matches)
 
-# Ejercicio 1:
-# ¿Cuantas palabras tienen de 0 a más "a" y después una b?
+# Ejercicio 1:
+# ¿Cuantas palabras tienen de 0 a más "a" y después una b?
 
 # +: Una a más veces
 text = "dddd aaa ccc a bb aa casa"
@@ -49,7 +49,7 @@ pattern = r"\b\w{4,6}\b"
 matches = re.findall(pattern, words)
 print(matches)
 
-# Ejercicio
+# Ejercicio
 # Encuentra las palabras de más de 6 letras
 words = "ala fantastico casa árbol león cinco murcielago"
 pattern = r"\b\w{6,}\b"
