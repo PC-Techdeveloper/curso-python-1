@@ -9,14 +9,14 @@ import re
 # Coincidir con cualquier caracter excepto una nueva linea
 
 text = "Hola mundo, H0la de nuevo, H$la otra vez"
-pattern = "H.la" # Hola, H0la, H$la
+pattern = "H.la"  # Hola, H0la, H$la
 
 found = re.findall(pattern, text)
 
-if (found):
-  print(found)
+if found:
+    print(found)
 else:
-  print("No se ha encontrado el patrón")
+    print("No se ha encontrado el patrón")
 
 
 text = "casa caasa cosa cisa cesa causa"
@@ -28,14 +28,14 @@ print(matches)
 # --------------------
 
 text = "Hola mundo, H0la de nuevo, H$la otra vez"
-pattern = r"H.la" # Hola, H0la, H$la
+pattern = r"H.la"  # Hola, H0la, H$la
 
 found = re.findall(pattern, text)
 
-if (found):
-  print(found)
+if found:
+    print(found)
 else:
-  print("No se ha encontrado el patrón")
+    print("No se ha encontrado el patrón")
 
 
 # Cómo usar la barra invertida para anular el significado especial de un símbolo
@@ -49,7 +49,7 @@ print(matches)
 # \d: coincide con cualquier dígito (0-9)
 
 text = "El número de teléfono es 123456789"
-found = re.findall(r'\d{9}', text)
+found = re.findall(r"\d{9}", text)
 
 print(found)
 
@@ -58,7 +58,8 @@ print(found)
 text = "Mi número de teléfono es +34 688999999 apúntalo vale?"
 pattern = r"\+34 \d{9}"
 found = re.search(pattern, text)
-if found: print(f"Encontré el número de teléfono {found.group()}")
+if found:
+    print(f"Encontré el número de teléfono {found.group()}")
 
 # \w: Coincide con cualquier caracter alfanumerico (a-z, A-Z, 0-9, _)
 
@@ -67,28 +68,32 @@ pattern = r"\w"
 found = re.findall(pattern, text)
 print(found)
 
-# \s: Coincide con cualqueir espacio en blanco (espacio, tabulación, salto de línea)
+# \s: Coincide con cualqueir espacio en blanco (espacio, tabulación, salto de línea)
 text = "Hola mundo\n¿Cómo estás?\t"
 pattern = r"\s"
 matches = re.findall(pattern, text)
 print(matches)
 
 # ^: Coincide con el principio de una cadena
-username = "423_name%22" 
-pattern = r"^\w" # validar nombre de usuario
+username = "423_name%22"
+pattern = r"^\w"  # validar nombre de usuario
 
 valid = re.search(pattern, username)
 
-if valid: print("El nombre de usuario es válido")
-else: print("El nombre de usuario no es válido")
+if valid:
+    print("El nombre de usuario es válido")
+else:
+    print("El nombre de usuario no es válido")
 
 phone = "+34 688999999"
 pattern = r"^\+\d{1,3} "
 
 valid = re.search(pattern, phone)
 
-if valid: print("El número de teléfono es válido")
-else: print("El número de teléfono no es válido")
+if valid:
+    print("El número de teléfono es válido")
+else:
+    print("El número de teléfono no es válido")
 
 # $: Coincide con el final de una cadena
 text = "Hola mundo."
@@ -96,23 +101,27 @@ pattern = r"mundo$"
 
 valid = re.search(pattern, text)
 
-if valid: print("La cadena es válida")
-else: print("La cadena no es válida")
+if valid:
+    print("La cadena es válida")
+else:
+    print("La cadena no es válida")
 
 # EJERCICIO
-# Valida que un correo sea de gmail
+# Valida que un correo sea de gmail
 text = "miduga@hotmail.com"
 pattern = r"@gmail.com$"
 valid = re.search(pattern, text)
 
-if valid: print("El correo es gmail válido")
-else: print("El correo no es válido")
+if valid:
+    print("El correo es gmail válido")
+else:
+    print("El correo no es válido")
 
 # EJERCICIO:
-# Tenemos una lista de archivos, necesitamos saber los nombres de los ficheros con extension .txt
+# Tenemos una lista de archivos, necesitamos saber los nombres de los ficheros con extension .txt
 files = "file1.txt file2.pdf midu-of.webp secret.txt"
 
-# \b: Coincide con el principio o final de una palabra
+# \b: Coincide con el principio o final de una palabra
 text = "casa casada cosa cosas casado casa"
 pattern = r"\bc.sa\b"
 
