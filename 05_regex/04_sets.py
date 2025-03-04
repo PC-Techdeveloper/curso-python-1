@@ -7,9 +7,9 @@ pattern = r"^[\w._%+-]+$"
 
 match = re.search(pattern, username)
 if match:
-  print("El nombre de usuario es válido: ", match.group())
+    print("El nombre de usuario es válido: ", match.group())
 else:
-  print("El nombre de usuario no es válido")
+    print("El nombre de usuario no es válido")
 
 
 # Buscar todas las vocales de una palabra
@@ -19,7 +19,7 @@ matches = re.findall(pattern, text)
 print(matches)
 
 # Una Regex para encontrar las palabras man, fan y ban
-# pero ignora el resto
+# pero ignora el resto
 text = "man ran fan ñan ban"
 pattern = r"[mfb]an"
 
@@ -30,7 +30,7 @@ print(matches)
 # Nos han complicado el asunto, porque ahora hay palabras que encajan pero no empiezan por esas letras.
 # Solo queremos las palabras man, fan y ban
 text = "omniman fanatico man bandana"
-# \b 
+# \b
 
 text = "22"
 pattern = r"[4-9]"
