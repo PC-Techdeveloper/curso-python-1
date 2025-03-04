@@ -6,7 +6,7 @@
   "editor.lineNumbers": "on",
   "editor.renderWhitespace": "none",
   "window.autoDetectColorScheme": false,
-  "workbench.colorTheme": "Deep Blue",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.editor.tabActionLocation": "left",
   "workbench.fontAliasing": "antialiased",
   "workbench.list.smoothScrolling": true,
@@ -165,12 +165,12 @@
   "prettier.singleQuote": true,
   // ========== File Nesting ==========
   "explorer.fileNesting.enabled": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "files.autoSave": "afterDelay",
   "editor.minimap.enabled": false,
   "editor.minimap.maxColumn": 45,
   "window.zoomLevel": 2,
-  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "cascadia code",
   "editor.wordWrap": "bounded",
   "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
@@ -280,5 +280,4 @@
   "oneDarkPro.vivid": true,
   "oneDarkPro.italic": true,
   "oneDarkPro.bold": true,
-  "editor.lineHeight": 21
 }
