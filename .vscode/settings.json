@@ -1,7 +1,7 @@
 {
   // ========== Visuals ==========
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontFamily": "cascadia code",
+  "editor.fontFamily": "Cascadia Code",
   "editor.guides.bracketPairs": "active",
   "editor.lineNumbers": "on",
   "editor.renderWhitespace": "none",
@@ -165,12 +165,12 @@
   "prettier.singleQuote": true,
   // ========== File Nesting ==========
   "explorer.fileNesting.enabled": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "files.autoSave": "afterDelay",
   "editor.minimap.enabled": false,
   "editor.minimap.maxColumn": 45,
   "window.zoomLevel": 2,
-  "terminal.integrated.fontFamily": "cascadia code",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
   "editor.wordWrap": "bounded",
   "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
@@ -237,7 +237,7 @@
   "explorer.compactFolders": false,
   "explorer.openEditors.visible": 1,
   "explorer.sortOrder": "type",
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "terminal.integrated.gpuAcceleration": "on",
   "editor.autoIndent": "full",
   "editor.folding": true,
@@ -259,7 +259,7 @@
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
-  "chat.commandCenter.enabled": true,
+  "chat.commandCenter.enabled": false,
   "editor.scrollbar.vertical": "auto",
   "editor.scrollbar.horizontal": "hidden",
   "editor.linkedEditing": true,
@@ -268,7 +268,7 @@
   "editor.detectIndentation": false,
   "workbench.editor.showTabs": "multiple",
   "editor.colorDecorators": false,
-  "editor.renderLineHighlight": "none",
+  "editor.renderLineHighlight": "line",
   "chat.editor.wordWrap": "on",
   "editor.accessibilitySupport": "off",
   "terminal.integrated.smoothScrolling": true,
