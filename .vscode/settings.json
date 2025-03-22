@@ -13,7 +13,7 @@
   "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
   "workbench.preferredLightColorTheme": "One Dark Pro Darker",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.sideBar.location": "left",
+  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 4,
@@ -169,8 +169,8 @@
   "files.autoSave": "afterDelay",
   "editor.minimap.enabled": false,
   "editor.minimap.maxColumn": 45,
-  "window.zoomLevel": 1.5,
-  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "window.zoomLevel": 1.6,
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
   "editor.wordWrap": "bounded",
   "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
@@ -191,7 +191,7 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.defaultFormatter": "redhat.java"
   },
-  "editor.cursorBlinking": "blink",
+  "editor.cursorBlinking": "solid",
   "editor.smoothScrolling": true,
   "editor.cursorStyle": "line",
   "editor.find.cursorMoveOnType": false,
@@ -254,7 +254,7 @@
     "file:///c:/Users/jefer/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
   ],
   "workbench.editor.wrapTabs": false,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
   "git.blame.editorDecoration.enabled": false,
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
@@ -278,4 +278,7 @@
   "oneDarkPro.italic": true,
   "oneDarkPro.bold": true,
   "security.workspace.trust.untrustedFiles": "open",
+  "supermaven.enable": {
+    "*": true
+  },
 }
