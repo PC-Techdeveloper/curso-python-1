@@ -11,7 +11,8 @@ print("int:")  # Enteros (números sin parte decimal)
 print(type(10))  # Número entero positivo
 print(type(0))  # El número cero también es un entero
 print(type(-5))  # Número entero negativo
-print(type(7238424723784278934789239874))  # Python permite enteros de gran tamaño
+# Python permite enteros de gran tamaño
+print(type(7238424723784278934789239874))
 
 print("float:")  # Números decimales (de punto flotante)
 print(type(3.14))  # Número con punto decimal
@@ -23,7 +24,8 @@ print(type(1e3))  # Notación científica (equivalente a 1000.0)
 print("complex:")  # Números complejos (con parte real e imaginaria)
 print(
     type(1 + 2j)
-)  # Un número complejo en Python (1 es la parte real, 2j es la parte imaginaria)
+    # Un número complejo en Python (1 es la parte real, 2j es la parte imaginaria)
+)
 
 print("str:")  # Cadenas de texto (strings)
 print(type("Hola"))  # Un string con texto

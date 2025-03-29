@@ -18,7 +18,8 @@ print("Python", "es", "genial")
 print("Python", "es", "brutal", sep="-")
 
 # El parámetro 'end' define lo que se imprime al final de la línea
-print("Esto se imprime", end="\n")  # Aquí, el 'end' tiene un salto de línea explícito
+# Aquí, el 'end' tiene un salto de línea explícito
+print("Esto se imprime", end="\n")
 print("en una línea")  # Esto se imprime en la línea siguiente
 
 # También se pueden imprimir números directamente
