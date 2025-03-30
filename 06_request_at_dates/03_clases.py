@@ -2,6 +2,7 @@
 # Las clases son plantillas para crear objetos. Un objeto es una instancia de una clase.
 # Nos permite agrupar datos (atributos o propiedades) y funciones (métodos) en un solo lugar.
 
+import requests
 OPENAI_KEY = ""
 DEEPSEEK_API_KEY = ""
 
@@ -39,8 +40,6 @@ print(coche_de_pheralb.marca)
 # Encapsulación: es ocultar los detalles internos de una clase y exponer solo la interfaz pública
 
 # Crear una clase para llamar a la AI de OpenAI, DeepSeek O LO QUE SEA
-
-# import requests
 
 
 class AI_API:
