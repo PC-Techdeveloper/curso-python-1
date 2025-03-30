@@ -40,7 +40,7 @@ print(coche_de_pheralb.marca)
 
 # Crear una clase para llamar a la AI de OpenAI, DeepSeek O LO QUE SEA
 
-import requests
+# import requests
 
 
 class AI_API:
@@ -54,7 +54,8 @@ class AI_API:
             "Content-Type": "application/json",
             "Authorization": f"Bearer {self.api_key}",
         }
-        data = {"model": self.model, "messages": [{"role": "user", "content": prompt}]}
+        data = {"model": self.model, "messages": [
+            {"role": "user", "content": prompt}]}
 
         try:
             response = requests.post(self.url, json=data, headers=headers)
