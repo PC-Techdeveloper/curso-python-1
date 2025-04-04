@@ -1,7 +1,7 @@
 {
   // ========== Visuals ==========
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontFamily": "Cascadia Code",
+  "editor.fontFamily": "CaskaydiaCove Nerd Font Mono",
   "editor.guides.bracketPairs": "active",
   "editor.lineNumbers": "on",
   "editor.renderWhitespace": "none",
@@ -13,7 +13,7 @@
   "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
   "workbench.preferredLightColorTheme": "One Dark Pro Darker",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.sideBar.location": "left",
+  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 4,
@@ -175,7 +175,7 @@
   "editor.minimap.enabled": false,
   "editor.minimap.maxColumn": 45,
   "window.zoomLevel": 1.99,
-  "editor.fontSize": 13,
+  "editor.fontSize": 14,
   "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
   "editor.wordWrap": "bounded",
   "editor.fontLigatures": true,
@@ -188,7 +188,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.formatOnType": true,
     "editor.wordBasedSuggestions": "off",
-    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.defaultFormatter": "ms-python.autopep8",
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -250,7 +250,7 @@
   "editor.folding": true,
   "editor.suggestOnTriggerCharacters": true,
   "editor.quickSuggestions": {
-    "other": "on",
+    "other": false,
     "comments": false,
     "strings": false
   },
@@ -263,13 +263,13 @@
     "file:///c:/Users/jefer/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
   ],
   "workbench.editor.wrapTabs": false,
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "git.blame.editorDecoration.enabled": false,
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
   "chat.commandCenter.enabled": false,
-  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
   "editor.linkedEditing": false,
   "editor.suggest.insertMode": "replace",
