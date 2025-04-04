@@ -19,8 +19,8 @@ print("5 >= 5:", 5 >= 5)      # True (mayor o igual que)
 print("5 <= 3:", 5 <= 3)      # False (menor o igual que)
 
 print("\nComparación de cadenas:")
-print("'manzana' < 'pera':", "manzana" < "pera") # True
-print("'Hola' == 'hola'", "Hola" == "hola") # False
+print("'manzana' < 'pera':", "manzana" < "pera")  # True
+print("'Hola' == 'hola'", "Hola" == "hola")  # False
 
 # Operadores lógicos: and, or, not
 print("\nOperadores lógicos:")
@@ -47,7 +47,7 @@ print("True  False", True or False)
 print("False True ", False or True)
 print("False False", False or False)
 
-print("\n not:") 
+print("\n not:")
 print("A     not A")
 print("True ", not True)
 print("False", not False)
