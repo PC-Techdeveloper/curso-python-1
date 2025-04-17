@@ -16,9 +16,9 @@
 """
 
 # 1. Importar el módulo de expresiones regulares "re"
-import re
 
 # 2. Crear un patrón, que es una cadena de texto que describe lo que queremos encontrar
+import re
 pattern = "Hola"
 # 3. El texto donde queremos buscar
 text = "Hola mundo"
@@ -55,7 +55,7 @@ else:
 
 # -----------------------
 
-### Encontrar todas las coincidencias de un patrón
+#  Encontrar todas las coincidencias de un patrón
 # .findall() devuelve una lista con todas las coincidencias
 
 text = "Me gusta Python. Python es lo máximo. Aunque Python no es tan difícil, ojo con Python"
@@ -81,7 +81,7 @@ for match in matches:
 # Encuentra todas las ocurrencias de la palabra "midu" en el siguiente texto e indica en que posición empieza y termina cada coincidencia y cuantas veces se encontró.
 text = "Este es el curso de Python de midudev. ¡Suscríbete a midudev si te gusta este contenido! midu"
 
-### Modificadores
+# Modificadores
 
 # Los modificadores son opciones que se pueden agregar a un patrón para cambiar su comportamiento
 
@@ -98,7 +98,7 @@ if found:
 # Encuentra todas las ocurrencias de la palabra "python" en el siguiente texto, sin distinguir entre mayúsculas y minúsculas.
 text = "Este es el curso de Python de midudev. ¡Suscríbete a python si te gusta este contenido! PYTHON"
 
-### Reemplazar el texto
+# Reemplazar el texto
 
 # .sub() reemplaza todas las coincidencias de un patrón en un texto
 
