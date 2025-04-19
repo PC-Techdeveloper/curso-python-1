@@ -1,4 +1,5 @@
 # Trabajando con fechas y horas en Python
+import locale
 from datetime import datetime, timedelta
 
 # 1. Obtener la fecha y hora actual
@@ -12,7 +13,6 @@ print(f"Fecha y hora específica: {specific_date}")
 # 3. Formatear fechas
 # Método strftime() para formatear fechas
 # pasarle el objeto datetime y el formato de especificado
-import locale
 
 locale.setlocale(locale.LC_TIME, "es_ES.UTF-8")
 
