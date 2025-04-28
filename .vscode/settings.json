@@ -174,7 +174,7 @@
   "files.autoSave": "afterDelay",
   "editor.minimap.enabled": false,
   "window.zoomLevel": 1.3,
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
   "editor.wordWrap": "bounded",
   "editor.fontLigatures": false,
@@ -198,7 +198,7 @@
   },
   "editor.cursorBlinking": "smooth",
   "editor.smoothScrolling": true,
-  "editor.cursorStyle": "block",
+  "editor.cursorStyle": "line",
   "editor.find.cursorMoveOnType": false,
   "emmet.syntaxProfiles": {
     "html": {
