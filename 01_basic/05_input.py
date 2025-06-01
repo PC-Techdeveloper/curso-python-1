@@ -11,7 +11,7 @@ print(f"Hola {nombre}, encantado de conocerte")
 
 # Ten en cuenta que la función input() devuelve un string
 # Así que si queremos obtener un número se debe convertir el string a un número
-age: int = input("¿Cuántos años tienes?\n")
+age: int = int(input("¿Cuántos años tienes?\n"))
 age: int = int(age)
 print(f"Tienes {age} años")
 
