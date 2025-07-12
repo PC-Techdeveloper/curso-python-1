@@ -279,7 +279,7 @@
   "editor.detectIndentation": false,
   "workbench.editor.showTabs": "multiple",
   "editor.colorDecorators": true,
-  "editor.renderLineHighlight": "line",
+  "editor.renderLineHighlight": "none",
   "chat.editor.wordWrap": "on",
   "editor.accessibilitySupport": "off",
   "terminal.integrated.smoothScrolling": true,
@@ -288,9 +288,6 @@
   "security.workspace.trust.untrustedFiles": "open",
   "supermaven.enable": {
     "*": true,
-    "supermaven.inlineCompletions.enabled": false,
-    "supermaven.inlineCompletions.delayMs": 10,
-    "supermaven.inlineCompletions.maxResults": 10
   },
   "telemetry.enabledTelemetry": false,
   "telemetry.telemetryLevel": "off",
